@@ -1,0 +1,137 @@
+:root {
+    --border: 1px solid blueviolet;
+    --back-ground-color: rgb(248, 218, 241);
+    --displey: flex;
+    --margin: 10px;
+    --padding: 10px;
+    --text-align: center;
+    --font-family: 'Playfair Display', serif ;
+  }
+
+  h1,
+  h2 ,
+  h3
+  {
+    color: blueviolet;
+    text-align: var(--text-align);
+    font-family: var(--font-family);
+  }
+
+  .button {
+    display: var(--displey);
+    justify-content: center;
+  }
+  
+  #contactme {
+    padding: 10px;
+    margin-right: 10px;
+    border: var(--border);
+    background-color: blueviolet;
+  }
+  
+  #contactme a {
+    color: white;
+  }
+  
+  #aboutme {
+    padding: 10px;
+    margin-left: 10px;
+    border: var(--border);
+  }
+  
+.my-hero {
+  background-color: var(--back-ground-color);
+  padding: 25px;
+}
+
+
+
+  a {
+    text-decoration: none;
+    color: blueviolet;
+    font-family: var(--font-family);
+    font-weight: bolder;
+  }
+  
+  .contact {
+    margin: 0, auto;
+    display: var(--displey);
+    justify-content: space-around;
+  }
+  
+  #mymail {
+    text-align: var(--text-align);
+  }
+  
+  #mymail:hover {
+    text-decoration: underline;
+  }
+  
+  /* #description {
+    background-color: var(--back-ground-color);
+  } */
+  
+  .my_style {
+    background-color: var(--back-ground-color);
+  }
+
+  p {
+    color: blueviolet;
+    font-weight: 450;
+    font-family: var(--font-family);
+    font-size: 17px;
+    text-align: justify;
+  }
+  
+
+#inquiry{
+ background-color: var(--back-ground-color);
+ padding: 40px;
+}
+
+.btn-branding {
+    color : white;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    border: var(--border);
+    background-color: blueviolet;
+}
+
+.btn-branding:hover{
+    background-color: white;
+    color : blueviolet;
+}
+
+.footer-mail{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.social-media a{
+    background-color: blueviolet;;
+    color: white;
+    border-radius: 50%;
+    margin-right:10px; ;
+}
+
+.social-media a:hover {
+    background-color: white;;
+    color: blueviolet;
+}
+
+ 
+@media (max-width : 768px) {
+  p {
+    text-align: center;
+  }
+
+  #inquiry {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #inquiry-button {
+    text-align: center;
+  }
+} 
